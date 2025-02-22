@@ -1,6 +1,9 @@
 #install and import library
-!pip install torch
-!pip install torchvision
+#!pip install torch
+#!pip install torchvision
+
+pip install torch
+pip install torchvision
 
 import torch
 import torchvision
@@ -21,7 +24,6 @@ from torch.utils.data import DataLoader
 batch_size = 10
 learning_rate = 0.0002
 num_epoch = 10
-
 
 #Creating dataset
 
@@ -46,8 +48,9 @@ if __name__ == "__main__":
     train_y = torch.rand(500)
     tr_dataset = BasicDataset(train_x, train_y)
 
-train_data =
-test_data =
+
+'train_data ='
+'test_data ='
 
 #dataloader
 
@@ -159,3 +162,4 @@ with torch.no_grad():
     print("Accuracy of Test Data: {}%".format(100*correct/total))
 
 
+##git 작동 테스트용 코드
