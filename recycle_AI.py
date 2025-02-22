@@ -2,8 +2,9 @@
 #!pip install torch
 #!pip install torchvision
 
-pip install torch
-pip install torchvision
+#pip install torch
+#pip install torchvision
+
 
 import torch
 import torchvision
